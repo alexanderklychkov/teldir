@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.black {
+	color: #000;
+}
+
+.fa-search {
+	color: #fff;
+	font-size: 16px;
+}
+
+/* section nav */
+
+#nav {
+	width: 100%;
+	background-color: black;
+}
+
+.nav-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.nav-logo a {
+	font-weight: bold;
+}
+
+.nav-search input[type="text"] {
+	height: 18px;
+	width: 220px;
+	border-radius: 15px;
+	padding-left: 10px;
+}
+
+/* section main */
+
+#main {
+	width: 100%;
+}
+
+.main-box {
+	display: flex;
+}
+
+.main-addcontact {
+	text-align: center;
+	width: 22%;
+	height: 95.5vh;
+	background-color: #3B3B3B;
+}
+
+.main-addcontact h2 {
+	color: #fff;
+}
+
+.main-addcontact input[type="text"] {
+	height: 18px;
+	width: 220px;
+	border-radius: 15px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.main-addcontact input[type="submit"] {
+	background-color: #fff;
+	width: 150px;
+	height: 27px;
+	border-color: #000;
+	border-radius: 5px;
+}
+
+.main-addcontact input[type="submit"]:hover {
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+}
+ 
+.main-contacts {
+	width: 78%;
+	height: 95.5vh;
+	background-color: #FDFDD3;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+}
+
+td {
+	text-align: center;
+}
